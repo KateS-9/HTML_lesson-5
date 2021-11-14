@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size:1.88em;
+    padding: 10px 0 10px 0;
 } 
 
 h2 + a {
@@ -111,7 +112,7 @@ input[type=submit] {
 }
 
 /* делаем семантические тэги - блочными */ 	
-header, nav, section, article, aside, footer {
+header, section, article, aside, footer {
     display:block;
     position:relative;
 } 
@@ -128,30 +129,31 @@ header, nav, section, article, aside, footer {
 /* пишем класс для шапки - header */ 			
 .h {
     overflow:hidden;
-    height:70px;
-    padding:35px 25px 0;
-} 
+
+}
 
 /* меню навигации */ 
-nav {
+#nav {
     width:100%;
     height:32px;
     background:#2ca9e4;
+    display:block;
+    position:relative;
     /* border-radius:20px;*/
 } 
 
-nav li {
+#nav li {
     float:left;
     margin:8px 20px 2px;
 } 
 
-nav a {
+#nav a {
     font-weight:bold;
     text-decoration:none;
     color:#fff;
 }
 
-nav a:hover {
+#nav a:hover {
     text-decoration:underline;
     color:#fff;
 } 
@@ -215,7 +217,7 @@ footer {
     font-style:normal;
 }
 
-header:hover, nav:hover, section:hover, article:hover, aside:hover, footer:hover {
+h1:hover, nav:hover, section:hover, article:hover, aside:hover, footer:hover {
     background:#FFC327;
     color:#fff;
 }
