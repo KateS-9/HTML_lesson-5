@@ -73,7 +73,7 @@ li {
 }
 
 #detail{
-    margin-bottom: 12px;
+    margin-bottom: 13px;
 }
 
 #creation{
@@ -87,7 +87,11 @@ li {
 }
 
 #asideli1{
-    margin-bottom: 13px;
+    margin-bottom: 12px;
+}
+
+#asideli2{
+    margin-bottom: 7px;
 }
 
 aside h3{
