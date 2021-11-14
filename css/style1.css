@@ -72,6 +72,10 @@ header h2 {
     transform: scaleY(1.1);
 }
 
+#detail{
+    margin-bottom: 13px;
+}
+
 p {
     text-align:justify;
     word-spacing:.1ex;
