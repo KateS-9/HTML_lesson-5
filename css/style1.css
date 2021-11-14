@@ -68,7 +68,7 @@ li {
     transform: none;
 } 
 
-#scale{
+.scale{
     transform: scaleY(1.1);
 }
 
