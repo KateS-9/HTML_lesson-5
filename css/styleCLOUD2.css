@@ -221,6 +221,7 @@ header, section, article, aside, footer {
 /* область основного контента */ 
 section {
     overflow:hidden;
+    background-image: url(https://raw.githubusercontent.com/KateS-9/html_lesson5/main/images/depositphotos_287425164-stock-photo-tender-pastel-background-with-pale.jpg);
 }
     
 /* стиль для картинки */ 
@@ -243,6 +244,11 @@ figcaption {
     font-size:1.2em;
 }	
 
+.img2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 mark {
     background: #ffec82;
     padding: 1px 3px;
@@ -251,8 +257,9 @@ mark {
 
 /* внутренняя область контента */ 
 section section {
-    float:right;
-    width:640px;
+    float:inherit;
+    width:907px;
+    padding-left:20px;
 } 
             
 /* правая часть */ 
@@ -289,4 +296,31 @@ article header .tag {
 
 aside .tag {
     top:12px;
+}
+
+table.table {
+    text-decoration: none;
+    border-collapse:collapse;
+    width:100%;
+    text-align:center;
+}
+	
+table.table th{
+    font-weight:normal;
+    font-size:14px; 
+    color:#1abced;
+    background-color:#ffffff;
+}
+
+table.table td{
+        font-size:13px;
+        color:#354251;
+    }
+
+table.table td,table.table th{
+        white-space:pre-wrap;
+        padding:15px 15px;
+        line-height:13px;
+        vertical-align: middle;
+        border: 1px solid #000000;
 }
